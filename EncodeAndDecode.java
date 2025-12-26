@@ -21,7 +21,9 @@ class Solution {
         if(str.equals(Character.toString((char)258))){
             return new ArrayList<>();
         }
+        System.out.println("Hello");
         String separater = Character.toString((char)257);
         return Arrays.asList(str.split(separater));
+        
     }
 }
